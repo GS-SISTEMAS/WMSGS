@@ -157,3 +157,6 @@ C:\Intranet\WMS-Source-20180821\TESO.LetrasElectronicas\obj\Debug\TESO.LetrasEle
 C:\Users\andy.vera\Source\Repos\WMS_GS\WMSGS\TESO.LetrasElectronicas\bin\Debug\TESO.LetrasElectronicas.exe.config
 C:\Users\andy.vera\Source\Repos\WMS_GS\WMSGS\TESO.LetrasElectronicas\obj\Debug\TESO.LetrasElectronicas.exe
 C:\Users\andy.vera\Source\Repos\WMS_GS\WMSGS\TESO.LetrasElectronicas\obj\Debug\TESO.LetrasElectronicas.pdb
+C:\Users\andy.vera\Source\Repos\WMS_LOCAL\TESO.LetrasElectronicas\bin\Debug\TESO.LetrasElectronicas.exe.config
+C:\Users\andy.vera\Source\Repos\WMS_LOCAL\TESO.LetrasElectronicas\obj\Debug\TESO.LetrasElectronicas.exe
+C:\Users\andy.vera\Source\Repos\WMS_LOCAL\TESO.LetrasElectronicas\obj\Debug\TESO.LetrasElectronicas.pdb
