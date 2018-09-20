@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9c355376-cedb-4b66-9253-6b0bf0401df5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://intranet.gruposilvestre.com.pe/WCFServices/WmsWCF.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WmsWCF.xsd" MetadataType="Schema" ID="48dc110f-3d7c-4313-9580-6b00f019ac65" SourceId="1" SourceUrl="http://intranet.gruposilvestre.com.pe/WCFServices/WmsWCF.svc?xsd=xsd0" />
+    <MetadataFile FileName="WmsWCF1.xsd" MetadataType="Schema" ID="76daa7b3-6dc4-4eea-b617-4925b3428cd3" SourceId="1" SourceUrl="http://intranet.gruposilvestre.com.pe/WCFServices/WmsWCF.svc?xsd=xsd1" />
+    <MetadataFile FileName="WmsWCF2.xsd" MetadataType="Schema" ID="e2857d9b-4027-4a30-b615-4a9b764a95b0" SourceId="1" SourceUrl="http://intranet.gruposilvestre.com.pe/WCFServices/WmsWCF.svc?xsd=xsd2" />
+    <MetadataFile FileName="WmsWCF.wsdl" MetadataType="Wsdl" ID="ed4766d2-cff6-4d2e-8426-0aa40e75a109" SourceId="1" SourceUrl="http://intranet.gruposilvestre.com.pe/WCFServices/WmsWCF.svc?wsdl" />
+    <MetadataFile FileName="WmsWCF.disco" MetadataType="Disco" ID="b839ca02-2fc1-48f5-bbe8-bf6287c23aec" SourceId="1" SourceUrl="http://intranet.gruposilvestre.com.pe/WCFServices/WmsWCF.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

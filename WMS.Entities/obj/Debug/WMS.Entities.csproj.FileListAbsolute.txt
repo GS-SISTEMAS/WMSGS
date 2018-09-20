@@ -1,0 +1,45 @@
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Entities\bin\Debug\WMS.Entities.dll
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Entities\bin\Debug\WMS.Entities.pdb
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Entities\obj\Debug\WMS.Entities.dll
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Entities\obj\Debug\WMS.Entities.pdb
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Entities\bin\Debug\WMS.Entities.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Entities\bin\Debug\WMS.Entities.pdb
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Entities\obj\Debug\WMS.Entities.csprojResolveAssemblyReference.cache
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Entities\obj\Debug\WMS.Entities.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Entities\obj\Debug\WMS.Entities.pdb
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Entities\bin\Debug\WMS.Entities.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Entities\bin\Debug\WMS.Entities.pdb
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Entities\obj\Debug\WMS.Entities.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Entities\obj\Debug\WMS.Entities.pdb
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Entities\bin\Debug\WMS.Entities.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Entities\bin\Debug\WMS.Entities.pdb
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Entities\obj\Debug\WMS.Entities.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Entities\obj\Debug\WMS.Entities.pdb
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Entities\obj\Debug\WMS.Entities.csprojResolveAssemblyReference.cache
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.Entities\bin\Debug\WMS.Entities.dll
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.Entities\bin\Debug\WMS.Entities.pdb
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.Entities\obj\Debug\WMS.Entities.dll
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.Entities\obj\Debug\WMS.Entities.pdb
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Entities\bin\Debug\WMS.Entities.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Entities\bin\Debug\WMS.Entities.pdb
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Entities\obj\Debug\WMS.Entities.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Entities\obj\Debug\WMS.Entities.pdb
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Entities\bin\Debug\WMS.Entities.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Entities\bin\Debug\WMS.Entities.pdb
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Entities\obj\Debug\WMS.Entities.csprojResolveAssemblyReference.cache
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Entities\obj\Debug\WMS.Entities.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Entities\obj\Debug\WMS.Entities.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.Entities\bin\Debug\WMS.Entities.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.Entities\bin\Debug\WMS.Entities.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.Entities\obj\Debug\WMS.Entities.csproj.CoreCompileInputs.cache
+C:\Users\andy.vera\Source\Repos\wms\WMS.Entities\obj\Debug\WMS.Entities.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.Entities\obj\Debug\WMS.Entities.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.Entities\obj\Debug\WMS.Entities.csprojAssemblyReference.cache
+C:\Intranet\WMS-Source-20180727\WMS.Entities\bin\Debug\WMS.Entities.dll
+C:\Intranet\WMS-Source-20180727\WMS.Entities\bin\Debug\WMS.Entities.pdb
+C:\Intranet\WMS-Source-20180727\WMS.Entities\obj\Debug\WMS.Entities.dll
+C:\Intranet\WMS-Source-20180727\WMS.Entities\obj\Debug\WMS.Entities.pdb
+C:\Intranet\WMS-Source-20180821\WMS.Entities\bin\Debug\WMS.Entities.dll
+C:\Intranet\WMS-Source-20180821\WMS.Entities\bin\Debug\WMS.Entities.pdb
+C:\Intranet\WMS-Source-20180821\WMS.Entities\obj\Debug\WMS.Entities.dll
+C:\Intranet\WMS-Source-20180821\WMS.Entities\obj\Debug\WMS.Entities.pdb

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfgsImpuesto_ListarPorItemResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="gsImpuesto_ListarPorItemResult" nillable="true" type="tns:gsImpuesto_ListarPorItemResult" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfgsImpuesto_ListarPorItemResult" nillable="true" type="tns:ArrayOfgsImpuesto_ListarPorItemResult" />
+  <xs:complexType name="gsImpuesto_ListarPorItemResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Abreviacion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EsPorcentaje" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ID_Cuenta" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID_Impuesto" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ID_Item" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Valor" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="gsImpuesto_ListarPorItemResult" nillable="true" type="tns:gsImpuesto_ListarPorItemResult" />
+  <xs:complexType name="ArrayOfgsImpuesto_BuscarPorPedidoResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="gsImpuesto_BuscarPorPedidoResult" nillable="true" type="tns:gsImpuesto_BuscarPorPedidoResult" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfgsImpuesto_BuscarPorPedidoResult" nillable="true" type="tns:ArrayOfgsImpuesto_BuscarPorPedidoResult" />
+  <xs:complexType name="gsImpuesto_BuscarPorPedidoResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Abreviacion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BaseImponible" type="xs:decimal" />
+      <xs:element minOccurs="0" name="EsPorcentaje" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ID_Impuesto" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Importe" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Valor" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="gsImpuesto_BuscarPorPedidoResult" nillable="true" type="tns:gsImpuesto_BuscarPorPedidoResult" />
+</xs:schema>

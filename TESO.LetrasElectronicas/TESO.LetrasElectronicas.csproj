@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{53E59DDE-3230-441C-BC9E-899904DD45AD}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TESO.LetrasElectronicas</RootNamespace>
+    <AssemblyName>TESO.LetrasElectronicas</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TESO.NumerosUnicos\TESO.NumerosUnicos.csproj">
+      <Project>{5d1095c6-38a0-4a6f-ad0e-095dbf65c0bb}</Project>
+      <Name>TESO.NumerosUnicos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WMS.DataAccess\WMS.DataAccess.csproj">
+      <Project>{fc84a7b3-2970-426c-a35d-c4bd3dd88020}</Project>
+      <Name>WMS.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WMS.Entities\WMS.Entities.csproj">
+      <Project>{48242619-ef17-47b0-860b-b1f21914bcc1}</Project>
+      <Name>WMS.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WMS.GuiasXConfirmar\WMS.GuiasXConfirmar.csproj">
+      <Project>{7e6fec5d-972b-4002-9ac7-320aae6db7e0}</Project>
+      <Name>WMS.GuiasXConfirmar</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WMS.Libreria\WMS.Libreria.csproj">
+      <Project>{06cc84dd-ff41-401f-b0bf-cdffeca6c571}</Project>
+      <Name>WMS.Libreria</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WMS.Logic\WMS.Logic.csproj">
+      <Project>{11a733c1-6e7b-4e35-b018-4ae208f50bab}</Project>
+      <Name>WMS.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WMS.ProduccionXRecibir\WMS.ProduccionXRecibir.csproj">
+      <Project>{98187a26-c6b9-4cdd-91cb-b8d120cca523}</Project>
+      <Name>WMS.ProduccionXRecibir</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WMS.Tareo\WMS.Tareo.csproj">
+      <Project>{61c37aa0-7f52-42f2-ae6c-1491aadde489}</Project>
+      <Name>WMS.Tareo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

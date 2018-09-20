@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="197cb45f-a46c-4653-b9f0-7e65017c2021" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49648/CorreoWCF.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CorreoWCF.xsd" MetadataType="Schema" ID="4d820552-34ea-47a3-b6d1-b33a14e138cb" SourceId="1" SourceUrl="http://localhost:49648/CorreoWCF.svc?xsd=xsd1" />
+    <MetadataFile FileName="CorreoWCF1.xsd" MetadataType="Schema" ID="55cbe2ca-2c3f-4589-b0ef-d072a093a8d6" SourceId="1" SourceUrl="http://localhost:49648/CorreoWCF.svc?xsd=xsd0" />
+    <MetadataFile FileName="CorreoWCF.disco" MetadataType="Disco" ID="a09af65f-9671-4ea9-a103-50b4c981529f" SourceId="1" SourceUrl="http://localhost:49648/CorreoWCF.svc?disco" />
+    <MetadataFile FileName="CorreoWCF.wsdl" MetadataType="Wsdl" ID="db81e67a-2d53-407f-a6e9-5a25ea162aad" SourceId="1" SourceUrl="http://localhost:49648/CorreoWCF.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

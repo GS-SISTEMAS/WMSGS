@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c872e7f7-7bf9-41a6-a59b-e41f0321a374" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://intranet.gruposilvestre.com.pe/WCFServices/ImpuestoWCF.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ImpuestoWCF.disco" MetadataType="Disco" ID="cd15e68a-3acc-43e2-b522-c53c1142cedf" SourceId="1" SourceUrl="http://intranet.gruposilvestre.com.pe/WCFServices/ImpuestoWCF.svc?disco" />
+    <MetadataFile FileName="ImpuestoWCF.xsd" MetadataType="Schema" ID="3edd8955-7d08-4777-a727-d6ed16521c1b" SourceId="1" SourceUrl="http://intranet.gruposilvestre.com.pe/WCFServices/ImpuestoWCF.svc?xsd=xsd0" />
+    <MetadataFile FileName="ImpuestoWCF.wsdl" MetadataType="Wsdl" ID="e866c9c1-ae77-4127-aa90-26df5e0bc85c" SourceId="1" SourceUrl="http://intranet.gruposilvestre.com.pe/WCFServices/ImpuestoWCF.svc?wsdl" />
+    <MetadataFile FileName="ImpuestoWCF1.xsd" MetadataType="Schema" ID="a14d6099-740e-4e3e-b961-a8c9e06cb26e" SourceId="1" SourceUrl="http://intranet.gruposilvestre.com.pe/WCFServices/ImpuestoWCF.svc?xsd=xsd2" />
+    <MetadataFile FileName="ImpuestoWCF2.xsd" MetadataType="Schema" ID="65fa90a6-3f02-4fab-9259-9915ccc7d2c2" SourceId="1" SourceUrl="http://intranet.gruposilvestre.com.pe/WCFServices/ImpuestoWCF.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

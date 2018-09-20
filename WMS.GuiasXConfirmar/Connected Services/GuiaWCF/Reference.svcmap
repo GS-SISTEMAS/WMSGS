@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="27638f20-6927-4a1e-b9c9-ccd2c422edf4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49648/GuiaWCF.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GuiaWCF1.disco" MetadataType="Disco" ID="aab48fa3-c0f4-43d2-bb5d-81c48017042c" SourceId="1" SourceUrl="http://localhost:49648/GuiaWCF.svc?disco" />
+    <MetadataFile FileName="GuiaWCF3.xsd" MetadataType="Schema" ID="bbc7face-9b1c-4bea-87fd-cb3bde040376" SourceId="1" SourceUrl="http://localhost:49648/GuiaWCF.svc?xsd=xsd1" />
+    <MetadataFile FileName="GuiaWCF31.xsd" MetadataType="Schema" ID="039abce6-75c6-409d-ad1d-b357339d0a1a" SourceId="1" SourceUrl="http://localhost:49648/GuiaWCF.svc?xsd=xsd0" />
+    <MetadataFile FileName="GuiaWCF32.xsd" MetadataType="Schema" ID="3ffda726-e24e-4427-aaab-737020d4dd3d" SourceId="1" SourceUrl="http://localhost:49648/GuiaWCF.svc?xsd=xsd2" />
+    <MetadataFile FileName="GuiaWCF1.wsdl" MetadataType="Wsdl" ID="72fa9a75-bb74-42f3-999c-21af2d5f44e8" SourceId="1" SourceUrl="http://localhost:49648/GuiaWCF.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

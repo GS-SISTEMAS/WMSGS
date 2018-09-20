@@ -1,0 +1,165 @@
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.exe.config
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.exe
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.pdb
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.exe
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.pdb
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.csprojResolveAssemblyReference.cache
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Entities.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Logic.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Entities.pdb
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Logic.pdb
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.pdb
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\GS.configuration.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.exe.config
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.exe
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.pdb
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.exe
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.pdb
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Entities.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Logic.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\GS.configuration.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Entities.pdb
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Logic.pdb
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.pdb
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.csprojResolveAssemblyReference.cache
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.exe.config
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.exe
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.pdb
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Entities.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Logic.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\GS.configuration.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Entities.pdb
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Logic.pdb
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.pdb
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.csprojResolveAssemblyReference.cache
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.exe
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.pdb
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.exe.config
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.exe
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.pdb
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Entities.dll
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Logic.dll
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.dll
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\GS.configuration.dll
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Entities.pdb
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Logic.pdb
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.pdb
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.csprojResolveAssemblyReference.cache
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.exe
+C:\Users\cesar.coronel\Desktop\ProyectosDesarrollo\WMS-Source\WMS\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.pdb
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.exe.config
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.exe
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.pdb
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Entities.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Logic.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\GS.configuration.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Entities.pdb
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Logic.pdb
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.pdb
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.csprojResolveAssemblyReference.cache
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.exe
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.pdb
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.exe.config
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.exe
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.pdb
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Entities.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Logic.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.ProduccionXRecibir\bin\Debug\GS.configuration.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Entities.pdb
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.Logic.pdb
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.pdb
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.csprojResolveAssemblyReference.cache
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.exe
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.exe.config
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.exe
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\bin\Debug\WMS.Entities.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\bin\Debug\WMS.Logic.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\bin\Debug\GS.configuration.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\bin\Debug\WMS.Entities.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\bin\Debug\WMS.Logic.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.dll.config
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.csprojAssemblyReference.cache
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.csproj.CoreCompileInputs.cache
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.csproj.CopyComplete
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.exe
+C:\Users\andy.vera\Source\Repos\wms\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.pdb
+C:\Intranet\WMS-Source-20180727\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.exe.config
+C:\Intranet\WMS-Source-20180727\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.exe
+C:\Intranet\WMS-Source-20180727\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.pdb
+C:\Intranet\WMS-Source-20180727\WMS.ProduccionXRecibir\bin\Debug\WMS.Entities.dll
+C:\Intranet\WMS-Source-20180727\WMS.ProduccionXRecibir\bin\Debug\WMS.Logic.dll
+C:\Intranet\WMS-Source-20180727\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.dll
+C:\Intranet\WMS-Source-20180727\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Intranet\WMS-Source-20180727\WMS.ProduccionXRecibir\bin\Debug\GS.configuration.dll
+C:\Intranet\WMS-Source-20180727\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Intranet\WMS-Source-20180727\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Intranet\WMS-Source-20180727\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Intranet\WMS-Source-20180727\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Intranet\WMS-Source-20180727\WMS.ProduccionXRecibir\bin\Debug\WMS.Entities.pdb
+C:\Intranet\WMS-Source-20180727\WMS.ProduccionXRecibir\bin\Debug\WMS.Logic.pdb
+C:\Intranet\WMS-Source-20180727\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.pdb
+C:\Intranet\WMS-Source-20180727\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.csprojResolveAssemblyReference.cache
+C:\Intranet\WMS-Source-20180727\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.exe
+C:\Intranet\WMS-Source-20180727\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.pdb
+C:\Intranet\WMS-Source-20180821\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.exe.config
+C:\Intranet\WMS-Source-20180821\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.exe
+C:\Intranet\WMS-Source-20180821\WMS.ProduccionXRecibir\bin\Debug\WMS.ProduccionXRecibir.pdb
+C:\Intranet\WMS-Source-20180821\WMS.ProduccionXRecibir\bin\Debug\WMS.Entities.dll
+C:\Intranet\WMS-Source-20180821\WMS.ProduccionXRecibir\bin\Debug\WMS.Logic.dll
+C:\Intranet\WMS-Source-20180821\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.dll
+C:\Intranet\WMS-Source-20180821\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Intranet\WMS-Source-20180821\WMS.ProduccionXRecibir\bin\Debug\GS.configuration.dll
+C:\Intranet\WMS-Source-20180821\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Intranet\WMS-Source-20180821\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Intranet\WMS-Source-20180821\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Intranet\WMS-Source-20180821\WMS.ProduccionXRecibir\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Intranet\WMS-Source-20180821\WMS.ProduccionXRecibir\bin\Debug\WMS.Entities.pdb
+C:\Intranet\WMS-Source-20180821\WMS.ProduccionXRecibir\bin\Debug\WMS.Logic.pdb
+C:\Intranet\WMS-Source-20180821\WMS.ProduccionXRecibir\bin\Debug\WMS.DataAccess.pdb
+C:\Intranet\WMS-Source-20180821\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.csprojResolveAssemblyReference.cache
+C:\Intranet\WMS-Source-20180821\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.exe
+C:\Intranet\WMS-Source-20180821\WMS.ProduccionXRecibir\obj\Debug\WMS.ProduccionXRecibir.pdb

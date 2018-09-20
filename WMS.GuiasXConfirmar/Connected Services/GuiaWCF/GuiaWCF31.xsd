@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:49648/GuiaWCF.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" />
+  <xs:element name="GuiaVenta_ListarxPedido">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="idPedido" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_ListarxPedidoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="GuiaVenta_ListarxPedidoResult" nillable="true" type="q1:ArrayOfgsGuiaVenta_ListarXPedidoResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_Listar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="id_agenda" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fInicio" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="fFin" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="id_item" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ID_Almacen" type="xs:int" />
+        <xs:element minOccurs="0" name="OP" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_ListarResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="GuiaVenta_ListarResult" nillable="true" type="q2:ArrayOfgsGuiaVentas_listarResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_ListarxOP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="idOperacion" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_ListarxOPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="GuiaVenta_ListarxOPResult" nillable="true" type="q3:ArrayOfgsGuiaVenta_ListarxOPResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_ActualizarTransporte">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="objGuiaVentaLista" nillable="true" type="q4:gsGuiaVenta_ListarxOPResult" />
+        <xs:element minOccurs="0" name="idOperacion" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_ActualizarTransporteResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_FechaInsertar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="Op" type="xs:int" />
+        <xs:element minOccurs="0" name="transaccion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="id_agenda" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fechaEmision" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="id_vehiculo" type="xs:int" />
+        <xs:element minOccurs="0" name="estado" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_FechaInsertarResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_FechasListar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="id_agenda" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fInicio" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="fFin" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="id_item" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ID_Almacen" type="xs:int" />
+        <xs:element minOccurs="0" name="OP" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_FechasListarResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="GuiaVenta_FechasListarResult" nillable="true" type="q5:ArrayOfgsGuiaVentas_FechaslistarResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_TransitoListar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="id_agenda" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fInicio" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="fFin" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="id_item" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ID_Almacen" type="xs:int" />
+        <xs:element minOccurs="0" name="OP" type="xs:int" />
+        <xs:element minOccurs="0" name="id_vehiculo" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_TransitoListarResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="GuiaVenta_TransitoListarResult" nillable="true" type="q6:ArrayOfgsGuiaVentas_TransitolistarResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_FechaTransporte">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="Op" type="xs:int" />
+        <xs:element minOccurs="0" name="transaccion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="id_agenda" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="estado" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_FechaTransporteResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_ListarGlobal">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="id_agenda" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fInicio" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="fFin" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="id_item" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ID_Almacen" type="xs:int" />
+        <xs:element minOccurs="0" name="OP" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_ListarGlobalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="GuiaVenta_ListarGlobalResult" nillable="true" type="q7:ArrayOfgsGuiaVentas_FechasGlobalResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_Modificar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="Op" type="xs:int" />
+        <xs:element minOccurs="0" name="transaccion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="id_agenda" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="usuarioE" type="xs:int" />
+        <xs:element minOccurs="0" name="fechaEmision" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="usuarioS" type="xs:int" />
+        <xs:element minOccurs="0" name="fechaSeguridad" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="usuarioC" type="xs:int" />
+        <xs:element minOccurs="0" name="fechaCliente" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="estado" type="xs:int" />
+        <xs:element minOccurs="0" name="id_vehiculo" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_ModificarResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_Registrar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="objGuiaVentaCabBE" nillable="true" type="q8:gsGuia_BuscarCabeceraResult" />
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="lstProductos" nillable="true" type="q9:gsGuia_BuscarDetalleResult" />
+        <xs:element minOccurs="0" name="idOperacion" nillable="true" type="xs:decimal" />
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="lstLotes" nillable="true" type="q10:ArrayOfGuiaVenta_LotesItemsResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_RegistrarResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_Buscar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="idPedido" type="xs:int" />
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="objOrdenVentaDet" nillable="true" type="q11:ArrayOfgsGuia_BuscarDetalleResult" />
+        <xs:element minOccurs="0" name="bloqueado" nillable="true" type="xs:boolean" />
+        <xs:element minOccurs="0" name="mensajeBloqueado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_BuscarResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="GuiaVenta_BuscarResult" nillable="true" type="q12:gsGuia_BuscarCabeceraResult" />
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="objOrdenVentaDet" nillable="true" type="q13:ArrayOfgsGuia_BuscarDetalleResult" />
+        <xs:element minOccurs="0" name="bloqueado" nillable="true" type="xs:boolean" />
+        <xs:element minOccurs="0" name="mensajeBloqueado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_LotesItemBuscar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="op" type="xs:int" />
+        <xs:element minOccurs="0" name="item_id" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_LotesItemBuscarResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="GuiaVenta_LotesItemBuscarResult" nillable="true" type="q14:ArrayOfGuiaVenta_LotesItemsResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_BuscarLotesxItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="op" type="xs:int" />
+        <xs:element minOccurs="0" name="item_id" type="xs:int" />
+        <xs:element minOccurs="0" name="ID_AlmacenAnexo" type="xs:int" />
+        <xs:element minOccurs="0" name="id_amarre" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_BuscarLotesxItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="GuiaVenta_BuscarLotesxItemResult" nillable="true" type="q15:ArrayOfVBG00971Result" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVentaQR_SeleccionarDocumentos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="fechainicial" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="fechafinal" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="nombrecliente" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="flgimpreso" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVentaQR_SeleccionarDocumentosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="GuiaVentaQR_SeleccionarDocumentosResult" nillable="true" type="q16:ArrayOfUSP_SEL_Guia_VentaImpresaQRResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVentaQR_SeleccionarImpresoras">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVentaQR_SeleccionarImpresorasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="GuiaVentaQR_SeleccionarImpresorasResult" nillable="true" type="q17:ArrayOfUSP_SEL_IMPRESORASQRResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVentaQR_SeleccionarGuiasPendientesImrpesion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVentaQR_SeleccionarGuiasPendientesImrpesionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="GuiaVentaQR_SeleccionarGuiasPendientesImrpesionResult" nillable="true" type="q18:ArrayOfUSP_SEL_GUIAS_PENDIENTESIMPRESIONResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVentaQR_ActualizarFlagImpresion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="Empresa" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OpGuia" type="xs:int" />
+        <xs:element minOccurs="0" name="flgimpreso" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVentaQR_ActualizarFlagImpresionResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_Registrar_wms">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="objGuiaVentaCabBE" nillable="true" type="q19:gsGuia_BuscarCabeceraResult" />
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="lstProductos" nillable="true" type="q20:gsGuia_BuscarDetalleResult" />
+        <xs:element minOccurs="0" name="idOperacion" nillable="true" type="xs:decimal" />
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="lstLotes" nillable="true" type="q21:ArrayOfGuiaVenta_LotesItemsResult" />
+        <xs:element minOccurs="0" name="EmpresaPT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PedidoServicio" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pedidolote" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pedidoidamarre" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiaVenta_Registrar_wmsResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

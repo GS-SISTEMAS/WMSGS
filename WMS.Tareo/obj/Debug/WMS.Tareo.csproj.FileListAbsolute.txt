@@ -1,0 +1,227 @@
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.csprojResolveAssemblyReference.cache
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.frmTareo.resources
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.Properties.Resources.resources
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.csproj.GenerateResource.Cache
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.exe
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.pdb
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.exe.config
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.exe.manifest
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.application
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.exe
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.pdb
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\bin\Debug\WMS.Entities.dll
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\bin\Debug\WMS.Logic.dll
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\bin\Debug\WMS.DataAccess.dll
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\bin\Debug\WMS.Entities.pdb
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\bin\Debug\WMS.Logic.pdb
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\bin\Debug\WMS.DataAccess.pdb
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.exe.manifest
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.application
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.exe.config
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.exe
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.pdb
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.exe.manifest
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.application
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.exe
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.pdb
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.Entities.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.Logic.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.DataAccess.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.Entities.pdb
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.Logic.pdb
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.DataAccess.pdb
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.csprojResolveAssemblyReference.cache
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.frmTareo.resources
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.Properties.Resources.resources
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.csproj.GenerateResource.Cache
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.exe.manifest
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.application
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\GS.configuration.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.exe.config
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.exe.manifest
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.application
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.exe
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.pdb
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.Entities.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.Logic.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.DataAccess.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\GS.configuration.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.Entities.pdb
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.Logic.pdb
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\bin\Debug\WMS.DataAccess.pdb
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.csprojResolveAssemblyReference.cache
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.frmTareo.resources
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.Properties.Resources.resources
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.csproj.GenerateResource.Cache
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.exe.manifest
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.application
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.exe
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.pdb
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.exe.config
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.exe.manifest
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.application
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.exe
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.pdb
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.Entities.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.Logic.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.DataAccess.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\bin\Debug\GS.configuration.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.Entities.pdb
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.Logic.pdb
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.DataAccess.pdb
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.csprojResolveAssemblyReference.cache
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.frmTareo.resources
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.Properties.Resources.resources
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.csproj.GenerateResource.Cache
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.exe.manifest
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.application
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.exe
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.pdb
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.exe.config
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.exe.manifest
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.application
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.exe
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.pdb
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.Entities.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.Logic.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.DataAccess.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\bin\Debug\GS.configuration.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.Entities.pdb
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.Logic.pdb
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\bin\Debug\WMS.DataAccess.pdb
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.csprojResolveAssemblyReference.cache
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.frmTareo.resources
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.Properties.Resources.resources
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.csproj.GenerateResource.Cache
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.exe.manifest
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.application
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.exe
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.pdb
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.exe.config
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.exe.manifest
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.application
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.exe
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\bin\Debug\WMS.Tareo.pdb
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\bin\Debug\WMS.Entities.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\bin\Debug\WMS.Logic.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\bin\Debug\WMS.DataAccess.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\bin\Debug\GS.configuration.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\bin\Debug\WMS.Entities.pdb
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\bin\Debug\WMS.Logic.pdb
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\bin\Debug\WMS.DataAccess.pdb
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.csprojResolveAssemblyReference.cache
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.frmTareo.resources
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.Properties.Resources.resources
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.csproj.GenerateResource.Cache
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.exe.manifest
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.application
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.exe
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Tareo\obj\Debug\WMS.Tareo.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\bin\Debug\WMS.Tareo.exe.config
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\bin\Debug\WMS.Tareo.exe.manifest
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\bin\Debug\WMS.Tareo.application
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\bin\Debug\WMS.Tareo.exe
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\bin\Debug\WMS.Tareo.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\bin\Debug\WMS.Entities.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\bin\Debug\WMS.Logic.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\bin\Debug\WMS.DataAccess.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\bin\Debug\GS.configuration.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\bin\Debug\WMS.Entities.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\bin\Debug\WMS.Logic.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\bin\Debug\WMS.DataAccess.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\bin\Debug\WMS.DataAccess.dll.config
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\obj\Debug\WMS.Tareo.csprojAssemblyReference.cache
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\obj\Debug\WMS.Tareo.frmTareo.resources
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\obj\Debug\WMS.Tareo.Properties.Resources.resources
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\obj\Debug\WMS.Tareo.csproj.GenerateResource.cache
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\obj\Debug\WMS.Tareo.csproj.CoreCompileInputs.cache
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\obj\Debug\WMS.Tareo.exe.manifest
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\obj\Debug\WMS.Tareo.application
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\obj\Debug\WMS.Tareo.csproj.CopyComplete
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\obj\Debug\WMS.Tareo.exe
+C:\Users\andy.vera\Source\Repos\wms\WMS.Tareo\obj\Debug\WMS.Tareo.pdb
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\bin\Debug\WMS.Tareo.exe.config
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\bin\Debug\WMS.Tareo.exe.manifest
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\bin\Debug\WMS.Tareo.application
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\bin\Debug\WMS.Tareo.exe
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\bin\Debug\WMS.Tareo.pdb
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\bin\Debug\WMS.Entities.dll
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\bin\Debug\WMS.Logic.dll
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\bin\Debug\WMS.DataAccess.dll
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\bin\Debug\GS.configuration.dll
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\bin\Debug\WMS.Entities.pdb
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\bin\Debug\WMS.Logic.pdb
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\bin\Debug\WMS.DataAccess.pdb
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\obj\Debug\WMS.Tareo.csprojResolveAssemblyReference.cache
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\obj\Debug\WMS.Tareo.frmTareo.resources
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\obj\Debug\WMS.Tareo.Properties.Resources.resources
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\obj\Debug\WMS.Tareo.csproj.GenerateResource.Cache
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\obj\Debug\WMS.Tareo.exe.manifest
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\obj\Debug\WMS.Tareo.application
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\obj\Debug\WMS.Tareo.exe
+C:\Intranet\WMS-Source-20180727\WMS.Tareo\obj\Debug\WMS.Tareo.pdb
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\bin\Debug\WMS.Tareo.exe.config
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\bin\Debug\WMS.Tareo.exe.manifest
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\bin\Debug\WMS.Tareo.application
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\bin\Debug\WMS.Tareo.exe
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\bin\Debug\WMS.Tareo.pdb
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\bin\Debug\WMS.Entities.dll
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\bin\Debug\WMS.Logic.dll
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\bin\Debug\WMS.DataAccess.dll
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\bin\Debug\GS.configuration.dll
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\bin\Debug\WMS.Entities.pdb
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\bin\Debug\WMS.Logic.pdb
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\bin\Debug\WMS.DataAccess.pdb
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\obj\Debug\WMS.Tareo.csprojResolveAssemblyReference.cache
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\obj\Debug\WMS.Tareo.frmTareo.resources
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\obj\Debug\WMS.Tareo.Properties.Resources.resources
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\obj\Debug\WMS.Tareo.csproj.GenerateResource.Cache
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\obj\Debug\WMS.Tareo.exe.manifest
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\obj\Debug\WMS.Tareo.application
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\obj\Debug\WMS.Tareo.exe
+C:\Intranet\WMS-Source-20180821\WMS.Tareo\obj\Debug\WMS.Tareo.pdb

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WmsWCF" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://intranet.gruposilvestre.com.pe/WCFServices/WmsWCF.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://intranet.gruposilvestre.com.pe/WCFServices/WmsWCF.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://intranet.gruposilvestre.com.pe/WCFServices/WmsWCF.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IWmsWCF_WmsPendientes_Envio_InputMessage">
+    <wsdl:part name="parameters" element="tns:WmsPendientes_Envio" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WmsPendientes_Envio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WmsPendientes_EnvioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WmsProduccion_PendientesRecibir_InputMessage">
+    <wsdl:part name="parameters" element="tns:WmsProduccion_PendientesRecibir" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WmsProduccion_PendientesRecibir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WmsProduccion_PendientesRecibirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WmsPedidosPendientes_UpdateEstilos_InputMessage">
+    <wsdl:part name="parameters" element="tns:WmsPedidosPendientes_UpdateEstilos" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WmsPedidosPendientes_UpdateEstilos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WmsPedidosPendientes_UpdateEstilosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WMS_RegistrarGuiaCompra_InputMessage">
+    <wsdl:part name="parameters" element="tns:WMS_RegistrarGuiaCompra" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WMS_RegistrarGuiaCompra_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WMS_RegistrarGuiaCompraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WMS_ObtenerOrdenCompra_InputMessage">
+    <wsdl:part name="parameters" element="tns:WMS_ObtenerOrdenCompra" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WMS_ObtenerOrdenCompra_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WMS_ObtenerOrdenCompraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WMS_RegistrarGuiaCompraLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:WMS_RegistrarGuiaCompraLinea" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WMS_RegistrarGuiaCompraLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WMS_RegistrarGuiaCompraLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_ProcesarGuiaCompra_InputMessage">
+    <wsdl:part name="parameters" element="tns:ProcesarGuiaCompra" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_ProcesarGuiaCompra_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ProcesarGuiaCompraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WMS_Produccion_Recibir_InputMessage">
+    <wsdl:part name="parameters" element="tns:WMS_Produccion_Recibir" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WMS_Produccion_Recibir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WMS_Produccion_RecibirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WMS_ProduccionLinea_Recibir_InputMessage">
+    <wsdl:part name="parameters" element="tns:WMS_ProduccionLinea_Recibir" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WMS_ProduccionLinea_Recibir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WMS_ProduccionLinea_RecibirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WmsPedidosPendientes_Envio_InputMessage">
+    <wsdl:part name="parameters" element="tns:WmsPedidosPendientes_Envio" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WmsPedidosPendientes_Envio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WmsPedidosPendientes_EnvioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WmsPedidosPendientes_Insertar_InputMessage">
+    <wsdl:part name="parameters" element="tns:WmsPedidosPendientes_Insertar" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WmsPedidosPendientes_Insertar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WmsPedidosPendientes_InsertarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WmsPedidos_Confirmacion_Listar_InputMessage">
+    <wsdl:part name="parameters" element="tns:WmsPedidos_Confirmacion_Listar" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WmsPedidos_Confirmacion_Listar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WmsPedidos_Confirmacion_ListarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WmsRecepcion_Confirmacion_Listar_InputMessage">
+    <wsdl:part name="parameters" element="tns:WmsRecepcion_Confirmacion_Listar" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WmsRecepcion_Confirmacion_Listar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WmsRecepcion_Confirmacion_ListarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WmsPedidosPendientes_Update_InputMessage">
+    <wsdl:part name="parameters" element="tns:WmsPedidosPendientes_Update" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_WmsPedidosPendientes_Update_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WmsPedidosPendientes_UpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_Wms_Produccion_UpdateEstilos_InputMessage">
+    <wsdl:part name="parameters" element="tns:Wms_Produccion_UpdateEstilos" />
+  </wsdl:message>
+  <wsdl:message name="IWmsWCF_Wms_Produccion_UpdateEstilos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Wms_Produccion_UpdateEstilosResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IWmsWCF">
+    <wsdl:operation name="WmsPendientes_Envio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWmsWCF/WmsPendientes_Envio" message="tns:IWmsWCF_WmsPendientes_Envio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWmsWCF/WmsPendientes_EnvioResponse" message="tns:IWmsWCF_WmsPendientes_Envio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WmsProduccion_PendientesRecibir">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWmsWCF/WmsProduccion_PendientesRecibir" message="tns:IWmsWCF_WmsProduccion_PendientesRecibir_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWmsWCF/WmsProduccion_PendientesRecibirResponse" message="tns:IWmsWCF_WmsProduccion_PendientesRecibir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WmsPedidosPendientes_UpdateEstilos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWmsWCF/WmsPedidosPendientes_UpdateEstilos" message="tns:IWmsWCF_WmsPedidosPendientes_UpdateEstilos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWmsWCF/WmsPedidosPendientes_UpdateEstilosResponse" message="tns:IWmsWCF_WmsPedidosPendientes_UpdateEstilos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WMS_RegistrarGuiaCompra">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWmsWCF/WMS_RegistrarGuiaCompra" message="tns:IWmsWCF_WMS_RegistrarGuiaCompra_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWmsWCF/WMS_RegistrarGuiaCompraResponse" message="tns:IWmsWCF_WMS_RegistrarGuiaCompra_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WMS_ObtenerOrdenCompra">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWmsWCF/WMS_ObtenerOrdenCompra" message="tns:IWmsWCF_WMS_ObtenerOrdenCompra_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWmsWCF/WMS_ObtenerOrdenCompraResponse" message="tns:IWmsWCF_WMS_ObtenerOrdenCompra_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WMS_RegistrarGuiaCompraLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWmsWCF/WMS_RegistrarGuiaCompraLinea" message="tns:IWmsWCF_WMS_RegistrarGuiaCompraLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWmsWCF/WMS_RegistrarGuiaCompraLineaResponse" message="tns:IWmsWCF_WMS_RegistrarGuiaCompraLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ProcesarGuiaCompra">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWmsWCF/ProcesarGuiaCompra" message="tns:IWmsWCF_ProcesarGuiaCompra_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWmsWCF/ProcesarGuiaCompraResponse" message="tns:IWmsWCF_ProcesarGuiaCompra_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WMS_Produccion_Recibir">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWmsWCF/WMS_Produccion_Recibir" message="tns:IWmsWCF_WMS_Produccion_Recibir_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWmsWCF/WMS_Produccion_RecibirResponse" message="tns:IWmsWCF_WMS_Produccion_Recibir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WMS_ProduccionLinea_Recibir">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWmsWCF/WMS_ProduccionLinea_Recibir" message="tns:IWmsWCF_WMS_ProduccionLinea_Recibir_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWmsWCF/WMS_ProduccionLinea_RecibirResponse" message="tns:IWmsWCF_WMS_ProduccionLinea_Recibir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WmsPedidosPendientes_Envio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWmsWCF/WmsPedidosPendientes_Envio" message="tns:IWmsWCF_WmsPedidosPendientes_Envio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWmsWCF/WmsPedidosPendientes_EnvioResponse" message="tns:IWmsWCF_WmsPedidosPendientes_Envio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WmsPedidosPendientes_Insertar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWmsWCF/WmsPedidosPendientes_Insertar" message="tns:IWmsWCF_WmsPedidosPendientes_Insertar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWmsWCF/WmsPedidosPendientes_InsertarResponse" message="tns:IWmsWCF_WmsPedidosPendientes_Insertar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WmsPedidos_Confirmacion_Listar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWmsWCF/WmsPedidos_Confirmacion_Listar" message="tns:IWmsWCF_WmsPedidos_Confirmacion_Listar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWmsWCF/WmsPedidos_Confirmacion_ListarResponse" message="tns:IWmsWCF_WmsPedidos_Confirmacion_Listar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WmsRecepcion_Confirmacion_Listar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWmsWCF/WmsRecepcion_Confirmacion_Listar" message="tns:IWmsWCF_WmsRecepcion_Confirmacion_Listar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWmsWCF/WmsRecepcion_Confirmacion_ListarResponse" message="tns:IWmsWCF_WmsRecepcion_Confirmacion_Listar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WmsPedidosPendientes_Update">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWmsWCF/WmsPedidosPendientes_Update" message="tns:IWmsWCF_WmsPedidosPendientes_Update_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWmsWCF/WmsPedidosPendientes_UpdateResponse" message="tns:IWmsWCF_WmsPedidosPendientes_Update_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Wms_Produccion_UpdateEstilos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWmsWCF/Wms_Produccion_UpdateEstilos" message="tns:IWmsWCF_Wms_Produccion_UpdateEstilos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWmsWCF/Wms_Produccion_UpdateEstilosResponse" message="tns:IWmsWCF_Wms_Produccion_UpdateEstilos_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IWmsWCF" type="tns:IWmsWCF">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WmsPendientes_Envio">
+      <soap:operation soapAction="http://tempuri.org/IWmsWCF/WmsPendientes_Envio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WmsProduccion_PendientesRecibir">
+      <soap:operation soapAction="http://tempuri.org/IWmsWCF/WmsProduccion_PendientesRecibir" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WmsPedidosPendientes_UpdateEstilos">
+      <soap:operation soapAction="http://tempuri.org/IWmsWCF/WmsPedidosPendientes_UpdateEstilos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WMS_RegistrarGuiaCompra">
+      <soap:operation soapAction="http://tempuri.org/IWmsWCF/WMS_RegistrarGuiaCompra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WMS_ObtenerOrdenCompra">
+      <soap:operation soapAction="http://tempuri.org/IWmsWCF/WMS_ObtenerOrdenCompra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WMS_RegistrarGuiaCompraLinea">
+      <soap:operation soapAction="http://tempuri.org/IWmsWCF/WMS_RegistrarGuiaCompraLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProcesarGuiaCompra">
+      <soap:operation soapAction="http://tempuri.org/IWmsWCF/ProcesarGuiaCompra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WMS_Produccion_Recibir">
+      <soap:operation soapAction="http://tempuri.org/IWmsWCF/WMS_Produccion_Recibir" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WMS_ProduccionLinea_Recibir">
+      <soap:operation soapAction="http://tempuri.org/IWmsWCF/WMS_ProduccionLinea_Recibir" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WmsPedidosPendientes_Envio">
+      <soap:operation soapAction="http://tempuri.org/IWmsWCF/WmsPedidosPendientes_Envio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WmsPedidosPendientes_Insertar">
+      <soap:operation soapAction="http://tempuri.org/IWmsWCF/WmsPedidosPendientes_Insertar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WmsPedidos_Confirmacion_Listar">
+      <soap:operation soapAction="http://tempuri.org/IWmsWCF/WmsPedidos_Confirmacion_Listar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WmsRecepcion_Confirmacion_Listar">
+      <soap:operation soapAction="http://tempuri.org/IWmsWCF/WmsRecepcion_Confirmacion_Listar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WmsPedidosPendientes_Update">
+      <soap:operation soapAction="http://tempuri.org/IWmsWCF/WmsPedidosPendientes_Update" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Wms_Produccion_UpdateEstilos">
+      <soap:operation soapAction="http://tempuri.org/IWmsWCF/Wms_Produccion_UpdateEstilos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WmsWCF">
+    <wsdl:port name="BasicHttpBinding_IWmsWCF" binding="tns:BasicHttpBinding_IWmsWCF">
+      <soap:address location="http://intranet.gruposilvestre.com.pe/WCFServices/WmsWCF.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

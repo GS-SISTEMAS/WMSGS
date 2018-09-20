@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://intranet.gruposilvestre.com.pe/WCFServices/OrdenVentaWCF.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" />
+  <xs:import schemaLocation="http://intranet.gruposilvestre.com.pe/WCFServices/OrdenVentaWCF.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/GS.SISGEGS.BE" />
+  <xs:element name="OrdenVenta_Listar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="ID_Agenda" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fechaDesde" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="fechaHasta" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="ID_Vendedor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="modificarPedido" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenVenta_ListarResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="OrdenVenta_ListarResult" nillable="true" type="q1:ArrayOfgsOV_ListarResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenVenta_Eliminar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="idOperacion" type="xs:int" />
+        <xs:element minOccurs="0" name="Comentario" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenVenta_EliminarResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenVenta_Registrar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="objOrdenVentaCabBE" nillable="true" type="q2:gsOV_BuscarCabeceraResult" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="lstProductos" nillable="true" type="q3:ArrayOfgsOV_BuscarDetalleResult" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/GS.SISGEGS.BE" minOccurs="0" name="lstImpuestos" nillable="true" type="q4:ArrayOfGlosaBE" />
+        <xs:element minOccurs="0" name="idOperacion" nillable="true" type="xs:decimal" />
+        <xs:element minOccurs="0" name="limiteCredito" type="xs:decimal" />
+        <xs:element minOccurs="0" name="fechaVencimiento" type="xs:dateTime" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="ListaFechas" nillable="true" type="q5:ArrayOfgsPedidos_FechasLetrasSelectResult" />
+        <xs:element minOccurs="0" name="Letras" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="KardexFlete" type="xs:int" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="objetoFlete" nillable="true" type="q6:gsOV_BuscarDetalleResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenVenta_RegistrarResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenVenta_Buscar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="idPedido" type="xs:int" />
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="objOrdenVentaDet" nillable="true" type="q7:ArrayOfgsOV_BuscarDetalleResult" />
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="objOrdenVentaImp" nillable="true" type="q8:ArrayOfgsOV_BuscarImpuestoResult" />
+        <xs:element minOccurs="0" name="bloqueado" nillable="true" type="xs:boolean" />
+        <xs:element minOccurs="0" name="mensajeBloqueado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenVenta_BuscarResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="OrdenVenta_BuscarResult" nillable="true" type="q9:gsOV_BuscarCabeceraResult" />
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="objOrdenVentaDet" nillable="true" type="q10:ArrayOfgsOV_BuscarDetalleResult" />
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="objOrdenVentaImp" nillable="true" type="q11:ArrayOfgsOV_BuscarImpuestoResult" />
+        <xs:element minOccurs="0" name="bloqueado" nillable="true" type="xs:boolean" />
+        <xs:element minOccurs="0" name="mensajeBloqueado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenVenta_ListarTipo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenVenta_ListarTipoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="OrdenVenta_ListarTipoResult" nillable="true" type="q12:ArrayOfVBG03630Result" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OV_TransGratuitas_Aprobar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="Op" type="xs:int" />
+        <xs:element minOccurs="0" name="mensajeError" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OV_TransGratuitas_AprobarResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mensajeError" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenVenta_Listar_Sectorista">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="ID_Agenda" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fechaDesde" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="fechaHasta" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="ID_Vendedor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="modificarPedido" type="xs:boolean" />
+        <xs:element minOccurs="0" name="id_Sectorista" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Estado" type="xs:int" />
+        <xs:element minOccurs="0" name="FormaPago" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenVenta_Listar_SectoristaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="OrdenVenta_Listar_SectoristaResult" nillable="true" type="q13:ArrayOfgsOV_Listar_SectoristaResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenVenta_Deasaprobar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="idOperacion" type="xs:int" />
+        <xs:element minOccurs="0" name="Comentario" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenVenta_DeasaprobarResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenVenta_Registrar_Contado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="objOrdenVentaCabBE" nillable="true" type="q14:gsOV_BuscarCabeceraResult" />
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="lstProductos" nillable="true" type="q15:ArrayOfgsOV_BuscarDetalleResult" />
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/GS.SISGEGS.BE" minOccurs="0" name="lstImpuestos" nillable="true" type="q16:ArrayOfGlosaBE" />
+        <xs:element minOccurs="0" name="idOperacion" nillable="true" type="xs:decimal" />
+        <xs:element minOccurs="0" name="limiteCredito" type="xs:decimal" />
+        <xs:element minOccurs="0" name="fechaVencimiento" type="xs:dateTime" />
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="ListaFechas" nillable="true" type="q17:ArrayOfgsPedidos_FechasLetrasSelectResult" />
+        <xs:element minOccurs="0" name="Letras" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenVenta_Registrar_ContadoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenVenta_Buscar_Guia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="idPedido" type="xs:int" />
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="objOrdenVentaDet" nillable="true" type="q18:ArrayOfgsOV_BuscarDetalleResult" />
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="objOrdenVentaImp" nillable="true" type="q19:ArrayOfgsOV_BuscarImpuestoResult" />
+        <xs:element minOccurs="0" name="bloqueado" nillable="true" type="xs:boolean" />
+        <xs:element minOccurs="0" name="mensajeBloqueado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenVenta_Buscar_GuiaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="OrdenVenta_Buscar_GuiaResult" nillable="true" type="q20:gsOV_BuscarCabeceraResult" />
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="objOrdenVentaDet" nillable="true" type="q21:ArrayOfgsOV_BuscarDetalleResult" />
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="objOrdenVentaImp" nillable="true" type="q22:ArrayOfgsOV_BuscarImpuestoResult" />
+        <xs:element minOccurs="0" name="bloqueado" nillable="true" type="xs:boolean" />
+        <xs:element minOccurs="0" name="mensajeBloqueado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PedidoLetras_Detalle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idEmpresa" type="xs:int" />
+        <xs:element minOccurs="0" name="codigoUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="idPedido" type="xs:int" />
+        <xs:element minOccurs="0" name="Op" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PedidoLetras_DetalleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" minOccurs="0" name="PedidoLetras_DetalleResult" nillable="true" type="q23:ArrayOfgsPedidos_FechasLetrasSelectResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

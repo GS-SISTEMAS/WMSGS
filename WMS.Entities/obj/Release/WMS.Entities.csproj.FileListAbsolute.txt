@@ -1,0 +1,5 @@
+C:\Users\andy.vera\Source\Repos\wms\WMS.Entities\bin\Release\WMS.Entities.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.Entities\bin\Release\WMS.Entities.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.Entities\obj\Release\WMS.Entities.csproj.CoreCompileInputs.cache
+C:\Users\andy.vera\Source\Repos\wms\WMS.Entities\obj\Release\WMS.Entities.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.Entities\obj\Release\WMS.Entities.pdb

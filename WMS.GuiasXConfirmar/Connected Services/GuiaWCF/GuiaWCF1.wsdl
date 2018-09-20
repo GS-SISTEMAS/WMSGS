@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="GuiaWCF" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:49648/GuiaWCF.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:49648/GuiaWCF.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:49648/GuiaWCF.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_ListarxPedido_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_ListarxPedido" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_ListarxPedido_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_ListarxPedidoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_Listar_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_Listar" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_Listar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_ListarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_ListarxOP_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_ListarxOP" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_ListarxOP_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_ListarxOPResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_ActualizarTransporte_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_ActualizarTransporte" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_ActualizarTransporte_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_ActualizarTransporteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_FechaInsertar_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_FechaInsertar" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_FechaInsertar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_FechaInsertarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_FechasListar_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_FechasListar" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_FechasListar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_FechasListarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_TransitoListar_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_TransitoListar" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_TransitoListar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_TransitoListarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_FechaTransporte_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_FechaTransporte" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_FechaTransporte_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_FechaTransporteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_ListarGlobal_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_ListarGlobal" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_ListarGlobal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_ListarGlobalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_Modificar_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_Modificar" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_Modificar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_ModificarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_Registrar_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_Registrar" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_Registrar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_RegistrarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_Buscar_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_Buscar" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_Buscar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_BuscarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_LotesItemBuscar_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_LotesItemBuscar" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_LotesItemBuscar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_LotesItemBuscarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_BuscarLotesxItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_BuscarLotesxItem" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_BuscarLotesxItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_BuscarLotesxItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVentaQR_SeleccionarDocumentos_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVentaQR_SeleccionarDocumentos" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVentaQR_SeleccionarDocumentos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVentaQR_SeleccionarDocumentosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVentaQR_SeleccionarImpresoras_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVentaQR_SeleccionarImpresoras" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVentaQR_SeleccionarImpresoras_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVentaQR_SeleccionarImpresorasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVentaQR_SeleccionarGuiasPendientesImrpesion_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVentaQR_SeleccionarGuiasPendientesImrpesion" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVentaQR_SeleccionarGuiasPendientesImrpesion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVentaQR_SeleccionarGuiasPendientesImrpesionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVentaQR_ActualizarFlagImpresion_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVentaQR_ActualizarFlagImpresion" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVentaQR_ActualizarFlagImpresion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVentaQR_ActualizarFlagImpresionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_Registrar_wms_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_Registrar_wms" />
+  </wsdl:message>
+  <wsdl:message name="IGuiaWCF_GuiaVenta_Registrar_wms_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuiaVenta_Registrar_wmsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IGuiaWCF">
+    <wsdl:operation name="GuiaVenta_ListarxPedido">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_ListarxPedido" message="tns:IGuiaWCF_GuiaVenta_ListarxPedido_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_ListarxPedidoResponse" message="tns:IGuiaWCF_GuiaVenta_ListarxPedido_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_Listar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_Listar" message="tns:IGuiaWCF_GuiaVenta_Listar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_ListarResponse" message="tns:IGuiaWCF_GuiaVenta_Listar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_ListarxOP">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_ListarxOP" message="tns:IGuiaWCF_GuiaVenta_ListarxOP_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_ListarxOPResponse" message="tns:IGuiaWCF_GuiaVenta_ListarxOP_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_ActualizarTransporte">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_ActualizarTransporte" message="tns:IGuiaWCF_GuiaVenta_ActualizarTransporte_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_ActualizarTransporteResponse" message="tns:IGuiaWCF_GuiaVenta_ActualizarTransporte_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_FechaInsertar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_FechaInsertar" message="tns:IGuiaWCF_GuiaVenta_FechaInsertar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_FechaInsertarResponse" message="tns:IGuiaWCF_GuiaVenta_FechaInsertar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_FechasListar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_FechasListar" message="tns:IGuiaWCF_GuiaVenta_FechasListar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_FechasListarResponse" message="tns:IGuiaWCF_GuiaVenta_FechasListar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_TransitoListar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_TransitoListar" message="tns:IGuiaWCF_GuiaVenta_TransitoListar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_TransitoListarResponse" message="tns:IGuiaWCF_GuiaVenta_TransitoListar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_FechaTransporte">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_FechaTransporte" message="tns:IGuiaWCF_GuiaVenta_FechaTransporte_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_FechaTransporteResponse" message="tns:IGuiaWCF_GuiaVenta_FechaTransporte_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_ListarGlobal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_ListarGlobal" message="tns:IGuiaWCF_GuiaVenta_ListarGlobal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_ListarGlobalResponse" message="tns:IGuiaWCF_GuiaVenta_ListarGlobal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_Modificar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_Modificar" message="tns:IGuiaWCF_GuiaVenta_Modificar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_ModificarResponse" message="tns:IGuiaWCF_GuiaVenta_Modificar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_Registrar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_Registrar" message="tns:IGuiaWCF_GuiaVenta_Registrar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_RegistrarResponse" message="tns:IGuiaWCF_GuiaVenta_Registrar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_Buscar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_Buscar" message="tns:IGuiaWCF_GuiaVenta_Buscar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_BuscarResponse" message="tns:IGuiaWCF_GuiaVenta_Buscar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_LotesItemBuscar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_LotesItemBuscar" message="tns:IGuiaWCF_GuiaVenta_LotesItemBuscar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_LotesItemBuscarResponse" message="tns:IGuiaWCF_GuiaVenta_LotesItemBuscar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_BuscarLotesxItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_BuscarLotesxItem" message="tns:IGuiaWCF_GuiaVenta_BuscarLotesxItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_BuscarLotesxItemResponse" message="tns:IGuiaWCF_GuiaVenta_BuscarLotesxItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVentaQR_SeleccionarDocumentos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVentaQR_SeleccionarDocumentos" message="tns:IGuiaWCF_GuiaVentaQR_SeleccionarDocumentos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVentaQR_SeleccionarDocumentosResponse" message="tns:IGuiaWCF_GuiaVentaQR_SeleccionarDocumentos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVentaQR_SeleccionarImpresoras">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVentaQR_SeleccionarImpresoras" message="tns:IGuiaWCF_GuiaVentaQR_SeleccionarImpresoras_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVentaQR_SeleccionarImpresorasResponse" message="tns:IGuiaWCF_GuiaVentaQR_SeleccionarImpresoras_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVentaQR_SeleccionarGuiasPendientesImrpesion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVentaQR_SeleccionarGuiasPendientesImrpesion" message="tns:IGuiaWCF_GuiaVentaQR_SeleccionarGuiasPendientesImrpesion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVentaQR_SeleccionarGuiasPendientesImrpesionResponse" message="tns:IGuiaWCF_GuiaVentaQR_SeleccionarGuiasPendientesImrpesion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVentaQR_ActualizarFlagImpresion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVentaQR_ActualizarFlagImpresion" message="tns:IGuiaWCF_GuiaVentaQR_ActualizarFlagImpresion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVentaQR_ActualizarFlagImpresionResponse" message="tns:IGuiaWCF_GuiaVentaQR_ActualizarFlagImpresion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_Registrar_wms">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_Registrar_wms" message="tns:IGuiaWCF_GuiaVenta_Registrar_wms_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGuiaWCF/GuiaVenta_Registrar_wmsResponse" message="tns:IGuiaWCF_GuiaVenta_Registrar_wms_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IGuiaWCF" type="tns:IGuiaWCF">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GuiaVenta_ListarxPedido">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVenta_ListarxPedido" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_Listar">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVenta_Listar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_ListarxOP">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVenta_ListarxOP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_ActualizarTransporte">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVenta_ActualizarTransporte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_FechaInsertar">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVenta_FechaInsertar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_FechasListar">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVenta_FechasListar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_TransitoListar">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVenta_TransitoListar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_FechaTransporte">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVenta_FechaTransporte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_ListarGlobal">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVenta_ListarGlobal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_Modificar">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVenta_Modificar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_Registrar">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVenta_Registrar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_Buscar">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVenta_Buscar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_LotesItemBuscar">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVenta_LotesItemBuscar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_BuscarLotesxItem">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVenta_BuscarLotesxItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVentaQR_SeleccionarDocumentos">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVentaQR_SeleccionarDocumentos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVentaQR_SeleccionarImpresoras">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVentaQR_SeleccionarImpresoras" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVentaQR_SeleccionarGuiasPendientesImrpesion">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVentaQR_SeleccionarGuiasPendientesImrpesion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVentaQR_ActualizarFlagImpresion">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVentaQR_ActualizarFlagImpresion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiaVenta_Registrar_wms">
+      <soap:operation soapAction="http://tempuri.org/IGuiaWCF/GuiaVenta_Registrar_wms" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GuiaWCF">
+    <wsdl:port name="BasicHttpBinding_IGuiaWCF" binding="tns:BasicHttpBinding_IGuiaWCF">
+      <soap:address location="http://localhost:49648/GuiaWCF.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

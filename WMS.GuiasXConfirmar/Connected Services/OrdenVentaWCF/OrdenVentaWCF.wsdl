@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="OrdenVentaWCF" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://intranet.gruposilvestre.com.pe/WCFServices/OrdenVentaWCF.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://intranet.gruposilvestre.com.pe/WCFServices/OrdenVentaWCF.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://intranet.gruposilvestre.com.pe/WCFServices/OrdenVentaWCF.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" />
+      <xsd:import schemaLocation="http://intranet.gruposilvestre.com.pe/WCFServices/OrdenVentaWCF.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/GS.SISGEGS.BE" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IOrdenVentaWCF_OrdenVenta_Listar_InputMessage">
+    <wsdl:part name="parameters" element="tns:OrdenVenta_Listar" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OrdenVenta_Listar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OrdenVenta_ListarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OrdenVenta_Eliminar_InputMessage">
+    <wsdl:part name="parameters" element="tns:OrdenVenta_Eliminar" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OrdenVenta_Eliminar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OrdenVenta_EliminarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OrdenVenta_Registrar_InputMessage">
+    <wsdl:part name="parameters" element="tns:OrdenVenta_Registrar" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OrdenVenta_Registrar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OrdenVenta_RegistrarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OrdenVenta_Buscar_InputMessage">
+    <wsdl:part name="parameters" element="tns:OrdenVenta_Buscar" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OrdenVenta_Buscar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OrdenVenta_BuscarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OrdenVenta_ListarTipo_InputMessage">
+    <wsdl:part name="parameters" element="tns:OrdenVenta_ListarTipo" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OrdenVenta_ListarTipo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OrdenVenta_ListarTipoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OV_TransGratuitas_Aprobar_InputMessage">
+    <wsdl:part name="parameters" element="tns:OV_TransGratuitas_Aprobar" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OV_TransGratuitas_Aprobar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OV_TransGratuitas_AprobarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OrdenVenta_Listar_Sectorista_InputMessage">
+    <wsdl:part name="parameters" element="tns:OrdenVenta_Listar_Sectorista" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OrdenVenta_Listar_Sectorista_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OrdenVenta_Listar_SectoristaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OrdenVenta_Deasaprobar_InputMessage">
+    <wsdl:part name="parameters" element="tns:OrdenVenta_Deasaprobar" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OrdenVenta_Deasaprobar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OrdenVenta_DeasaprobarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OrdenVenta_Registrar_Contado_InputMessage">
+    <wsdl:part name="parameters" element="tns:OrdenVenta_Registrar_Contado" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OrdenVenta_Registrar_Contado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OrdenVenta_Registrar_ContadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OrdenVenta_Buscar_Guia_InputMessage">
+    <wsdl:part name="parameters" element="tns:OrdenVenta_Buscar_Guia" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_OrdenVenta_Buscar_Guia_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OrdenVenta_Buscar_GuiaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_PedidoLetras_Detalle_InputMessage">
+    <wsdl:part name="parameters" element="tns:PedidoLetras_Detalle" />
+  </wsdl:message>
+  <wsdl:message name="IOrdenVentaWCF_PedidoLetras_Detalle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PedidoLetras_DetalleResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IOrdenVentaWCF">
+    <wsdl:operation name="OrdenVenta_Listar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Listar" message="tns:IOrdenVentaWCF_OrdenVenta_Listar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_ListarResponse" message="tns:IOrdenVentaWCF_OrdenVenta_Listar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OrdenVenta_Eliminar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Eliminar" message="tns:IOrdenVentaWCF_OrdenVenta_Eliminar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_EliminarResponse" message="tns:IOrdenVentaWCF_OrdenVenta_Eliminar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OrdenVenta_Registrar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Registrar" message="tns:IOrdenVentaWCF_OrdenVenta_Registrar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_RegistrarResponse" message="tns:IOrdenVentaWCF_OrdenVenta_Registrar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OrdenVenta_Buscar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Buscar" message="tns:IOrdenVentaWCF_OrdenVenta_Buscar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_BuscarResponse" message="tns:IOrdenVentaWCF_OrdenVenta_Buscar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OrdenVenta_ListarTipo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_ListarTipo" message="tns:IOrdenVentaWCF_OrdenVenta_ListarTipo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_ListarTipoResponse" message="tns:IOrdenVentaWCF_OrdenVenta_ListarTipo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OV_TransGratuitas_Aprobar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OV_TransGratuitas_Aprobar" message="tns:IOrdenVentaWCF_OV_TransGratuitas_Aprobar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OV_TransGratuitas_AprobarResponse" message="tns:IOrdenVentaWCF_OV_TransGratuitas_Aprobar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OrdenVenta_Listar_Sectorista">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Listar_Sectorista" message="tns:IOrdenVentaWCF_OrdenVenta_Listar_Sectorista_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Listar_SectoristaResponse" message="tns:IOrdenVentaWCF_OrdenVenta_Listar_Sectorista_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OrdenVenta_Deasaprobar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Deasaprobar" message="tns:IOrdenVentaWCF_OrdenVenta_Deasaprobar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_DeasaprobarResponse" message="tns:IOrdenVentaWCF_OrdenVenta_Deasaprobar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OrdenVenta_Registrar_Contado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Registrar_Contado" message="tns:IOrdenVentaWCF_OrdenVenta_Registrar_Contado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Registrar_ContadoResponse" message="tns:IOrdenVentaWCF_OrdenVenta_Registrar_Contado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OrdenVenta_Buscar_Guia">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Buscar_Guia" message="tns:IOrdenVentaWCF_OrdenVenta_Buscar_Guia_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Buscar_GuiaResponse" message="tns:IOrdenVentaWCF_OrdenVenta_Buscar_Guia_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PedidoLetras_Detalle">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrdenVentaWCF/PedidoLetras_Detalle" message="tns:IOrdenVentaWCF_PedidoLetras_Detalle_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrdenVentaWCF/PedidoLetras_DetalleResponse" message="tns:IOrdenVentaWCF_PedidoLetras_Detalle_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IOrdenVentaWCF" type="tns:IOrdenVentaWCF">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="OrdenVenta_Listar">
+      <soap:operation soapAction="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Listar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrdenVenta_Eliminar">
+      <soap:operation soapAction="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Eliminar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrdenVenta_Registrar">
+      <soap:operation soapAction="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Registrar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrdenVenta_Buscar">
+      <soap:operation soapAction="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Buscar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrdenVenta_ListarTipo">
+      <soap:operation soapAction="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_ListarTipo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OV_TransGratuitas_Aprobar">
+      <soap:operation soapAction="http://tempuri.org/IOrdenVentaWCF/OV_TransGratuitas_Aprobar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrdenVenta_Listar_Sectorista">
+      <soap:operation soapAction="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Listar_Sectorista" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrdenVenta_Deasaprobar">
+      <soap:operation soapAction="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Deasaprobar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrdenVenta_Registrar_Contado">
+      <soap:operation soapAction="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Registrar_Contado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrdenVenta_Buscar_Guia">
+      <soap:operation soapAction="http://tempuri.org/IOrdenVentaWCF/OrdenVenta_Buscar_Guia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PedidoLetras_Detalle">
+      <soap:operation soapAction="http://tempuri.org/IOrdenVentaWCF/PedidoLetras_Detalle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="OrdenVentaWCF">
+    <wsdl:port name="BasicHttpBinding_IOrdenVentaWCF" binding="tns:BasicHttpBinding_IOrdenVentaWCF">
+      <soap:address location="http://intranet.gruposilvestre.com.pe/WCFServices/OrdenVentaWCF.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9c8e682a-f90b-4905-b14c-76b2224f8ca3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49648/MerlinWCF.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MerlinWCF.xsd" MetadataType="Schema" ID="51df1afb-25e3-49ce-aa10-14a7513b3619" SourceId="1" SourceUrl="http://localhost:49648/MerlinWCF.svc?xsd=xsd2" />
+    <MetadataFile FileName="MerlinWCF.disco" MetadataType="Disco" ID="7e498912-55bb-4ec7-a18c-62a455ca63d7" SourceId="1" SourceUrl="http://localhost:49648/MerlinWCF.svc?disco" />
+    <MetadataFile FileName="MerlinWCF.wsdl" MetadataType="Wsdl" ID="52ea4302-26de-4b50-aa97-33926f681d97" SourceId="1" SourceUrl="http://localhost:49648/MerlinWCF.svc?wsdl" />
+    <MetadataFile FileName="MerlinWCF1.xsd" MetadataType="Schema" ID="7eb8058e-7e44-476d-afb3-6d1dc757412f" SourceId="1" SourceUrl="http://localhost:49648/MerlinWCF.svc?xsd=xsd0" />
+    <MetadataFile FileName="MerlinWCF2.xsd" MetadataType="Schema" ID="2f621de3-c8de-4c4c-94e7-cd76b1fe9177" SourceId="1" SourceUrl="http://localhost:49648/MerlinWCF.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

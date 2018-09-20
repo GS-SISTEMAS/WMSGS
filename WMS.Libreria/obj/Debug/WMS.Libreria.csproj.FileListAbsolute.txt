@@ -1,0 +1,43 @@
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Libreria\bin\Debug\WMS.Libreria.dll
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Libreria\bin\Debug\WMS.Libreria.pdb
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Libreria\obj\Debug\WMS.Libreria.csprojResolveAssemblyReference.cache
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Libreria\obj\Debug\WMS.Libreria.dll
+C:\Data\Desarrollo\TFS\SISWMSInterfaces\WMS\WMS.Libreria\obj\Debug\WMS.Libreria.pdb
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Libreria\bin\Debug\WMS.Libreria.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Libreria\bin\Debug\WMS.Libreria.pdb
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Libreria\obj\Debug\WMS.Libreria.dll
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Libreria\obj\Debug\WMS.Libreria.pdb
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Libreria\bin\Debug\WMS.Libreria.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Libreria\bin\Debug\WMS.Libreria.pdb
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Libreria\obj\Debug\WMS.Libreria.dll
+C:\Users\ALLAN\Google Drive\Proyectos\Code\WMS\WMS.Libreria\obj\Debug\WMS.Libreria.pdb
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\WMS.Libreria\obj\Debug\WMS.Libreria.csprojResolveAssemblyReference.cache
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Libreria\bin\Debug\WMS.Libreria.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Libreria\bin\Debug\WMS.Libreria.pdb
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Libreria\obj\Debug\WMS.Libreria.csprojResolveAssemblyReference.cache
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Libreria\obj\Debug\WMS.Libreria.dll
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\WMS.Libreria\obj\Debug\WMS.Libreria.pdb
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Libreria\bin\Debug\WMS.Libreria.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Libreria\bin\Debug\WMS.Libreria.pdb
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Libreria\obj\Debug\WMS.Libreria.dll
+C:\Users\cesar.coronel\Desktop\TFS\WMS-Source\WMS\WMS.Libreria\obj\Debug\WMS.Libreria.pdb
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Libreria\bin\Debug\WMS.Libreria.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Libreria\bin\Debug\WMS.Libreria.pdb
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Libreria\obj\Debug\WMS.Libreria.csprojResolveAssemblyReference.cache
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Libreria\obj\Debug\WMS.Libreria.dll
+C:\Users\andy.vera\Documents\Proyectos\WMS\WMS.Libreria\obj\Debug\WMS.Libreria.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.Libreria\bin\Debug\WMS.Libreria.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.Libreria\bin\Debug\WMS.Libreria.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.Libreria\obj\Debug\WMS.Libreria.csproj.CoreCompileInputs.cache
+C:\Users\andy.vera\Source\Repos\wms\WMS.Libreria\obj\Debug\WMS.Libreria.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.Libreria\obj\Debug\WMS.Libreria.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.Libreria\obj\Debug\WMS.Libreria.csprojAssemblyReference.cache
+C:\Intranet\WMS-Source-20180727\WMS.Libreria\bin\Debug\WMS.Libreria.dll
+C:\Intranet\WMS-Source-20180727\WMS.Libreria\bin\Debug\WMS.Libreria.pdb
+C:\Intranet\WMS-Source-20180727\WMS.Libreria\obj\Debug\WMS.Libreria.dll
+C:\Intranet\WMS-Source-20180727\WMS.Libreria\obj\Debug\WMS.Libreria.pdb
+C:\Intranet\WMS-Source-20180821\WMS.Libreria\bin\Debug\WMS.Libreria.dll
+C:\Intranet\WMS-Source-20180821\WMS.Libreria\bin\Debug\WMS.Libreria.pdb
+C:\Intranet\WMS-Source-20180821\WMS.Libreria\obj\Debug\WMS.Libreria.csprojResolveAssemblyReference.cache
+C:\Intranet\WMS-Source-20180821\WMS.Libreria\obj\Debug\WMS.Libreria.dll
+C:\Intranet\WMS-Source-20180821\WMS.Libreria\obj\Debug\WMS.Libreria.pdb

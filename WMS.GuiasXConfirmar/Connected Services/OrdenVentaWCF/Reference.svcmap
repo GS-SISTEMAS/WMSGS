@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="020dfaee-d00a-4556-8c61-1964cd979c7a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://intranet.gruposilvestre.com.pe/WCFServices/OrdenVentaWCF.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="OrdenVentaWCF.wsdl" MetadataType="Wsdl" ID="e8af5a96-fbfe-4770-8629-3147517d3464" SourceId="1" SourceUrl="http://intranet.gruposilvestre.com.pe/WCFServices/OrdenVentaWCF.svc?wsdl" />
+    <MetadataFile FileName="OrdenVentaWCF.xsd" MetadataType="Schema" ID="45c2142f-fa4e-447d-9991-5221882350d5" SourceId="1" SourceUrl="http://intranet.gruposilvestre.com.pe/WCFServices/OrdenVentaWCF.svc?xsd=xsd0" />
+    <MetadataFile FileName="OrdenVentaWCF1.xsd" MetadataType="Schema" ID="1badf896-9e8f-42d0-bad4-17d06da71cf6" SourceId="1" SourceUrl="http://intranet.gruposilvestre.com.pe/WCFServices/OrdenVentaWCF.svc?xsd=xsd2" />
+    <MetadataFile FileName="OrdenVentaWCF2.xsd" MetadataType="Schema" ID="f13e993e-4647-424a-83f1-b765732aced8" SourceId="1" SourceUrl="http://intranet.gruposilvestre.com.pe/WCFServices/OrdenVentaWCF.svc?xsd=xsd1" />
+    <MetadataFile FileName="OrdenVentaWCF.disco" MetadataType="Disco" ID="a0323572-8210-4813-b4e5-cc746a329837" SourceId="1" SourceUrl="http://intranet.gruposilvestre.com.pe/WCFServices/OrdenVentaWCF.svc?disco" />
+    <MetadataFile FileName="OrdenVentaWCF3.xsd" MetadataType="Schema" ID="32ecd793-9a15-4e55-9a17-87e168f2efb5" SourceId="1" SourceUrl="http://intranet.gruposilvestre.com.pe/WCFServices/OrdenVentaWCF.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

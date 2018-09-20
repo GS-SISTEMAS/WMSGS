@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d61153db-9864-4f41-bf51-6ee8c74ecf5e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49648/AgendaWCF.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AgendaWCF1.wsdl" MetadataType="Wsdl" ID="5ab7b0b2-80dc-4f88-9601-8a5b64bfda37" SourceId="1" SourceUrl="http://localhost:49648/AgendaWCF.svc?wsdl" />
+    <MetadataFile FileName="AgendaWCF4.xsd" MetadataType="Schema" ID="986cb200-47d3-445e-b602-3f0d5dceabc2" SourceId="1" SourceUrl="http://localhost:49648/AgendaWCF.svc?xsd=xsd0" />
+    <MetadataFile FileName="AgendaWCF41.xsd" MetadataType="Schema" ID="e001c680-c943-4d42-aecd-16c22689605b" SourceId="1" SourceUrl="http://localhost:49648/AgendaWCF.svc?xsd=xsd1" />
+    <MetadataFile FileName="AgendaWCF42.xsd" MetadataType="Schema" ID="f458046b-9b44-4edd-a203-a9197dd03d90" SourceId="1" SourceUrl="http://localhost:49648/AgendaWCF.svc?xsd=xsd2" />
+    <MetadataFile FileName="AgendaWCF43.xsd" MetadataType="Schema" ID="24bd1338-d0c5-47d8-b196-3415c5a66b8b" SourceId="1" SourceUrl="http://localhost:49648/AgendaWCF.svc?xsd=xsd3" />
+    <MetadataFile FileName="AgendaWCF1.disco" MetadataType="Disco" ID="0da34a33-ac82-4042-8b90-2d5737c2bec5" SourceId="1" SourceUrl="http://localhost:49648/AgendaWCF.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

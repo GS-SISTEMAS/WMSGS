@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ItemWCF" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://intranet.gruposilvestre.com.pe/WCFServices/ItemWCF.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://intranet.gruposilvestre.com.pe/WCFServices/ItemWCF.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://intranet.gruposilvestre.com.pe/WCFServices/ItemWCF.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/GS.SISGEGS.DM" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IItemWCF_Item_ListarProducto_InputMessage">
+    <wsdl:part name="parameters" element="tns:Item_ListarProducto" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_ListarProducto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Item_ListarProductoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_Buscar_InputMessage">
+    <wsdl:part name="parameters" element="tns:Item_Buscar" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_Buscar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Item_BuscarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_ListarTipoGastoCC_InputMessage">
+    <wsdl:part name="parameters" element="tns:Item_ListarTipoGastoCC" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_ListarTipoGastoCC_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Item_ListarTipoGastoCCResponse" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_ListarStock_InputMessage">
+    <wsdl:part name="parameters" element="tns:Item_ListarStock" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_ListarStock_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Item_ListarStockResponse" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_ListarPrecioCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:Item_ListarPrecioCliente" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_ListarPrecioCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Item_ListarPrecioClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_BuscarPrecioCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:Item_BuscarPrecioCliente" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_BuscarPrecioCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Item_BuscarPrecioClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_RegistrarPrecioCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:Item_RegistrarPrecioCliente" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_RegistrarPrecioCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Item_RegistrarPrecioClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_BuscarProducto_InputMessage">
+    <wsdl:part name="parameters" element="tns:Item_BuscarProducto" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_BuscarProducto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Item_BuscarProductoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_EliminarProductoCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:Item_EliminarProductoCliente" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_EliminarProductoCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Item_EliminarProductoClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_Listar_InputMessage">
+    <wsdl:part name="parameters" element="tns:Item_Listar" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_Listar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Item_ListarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_Listar_ProductosCompras_InputMessage">
+    <wsdl:part name="parameters" element="tns:Item_Listar_ProductosCompras" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_Listar_ProductosCompras_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Item_Listar_ProductosComprasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_CategoriasGxOpciones_InputMessage">
+    <wsdl:part name="parameters" element="tns:Item_CategoriasGxOpciones" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_CategoriasGxOpciones_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Item_CategoriasGxOpcionesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_ListarProducto_Stock_InputMessage">
+    <wsdl:part name="parameters" element="tns:Item_ListarProducto_Stock" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_ListarProducto_Stock_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Item_ListarProducto_StockResponse" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_ListarStock_Comercial_InputMessage">
+    <wsdl:part name="parameters" element="tns:Item_ListarStock_Comercial" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_ListarStock_Comercial_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Item_ListarStock_ComercialResponse" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_Listar_GestionStock_InputMessage">
+    <wsdl:part name="parameters" element="tns:Item_Listar_GestionStock" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_Listar_GestionStock_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Item_Listar_GestionStockResponse" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_Mantenimiento_GestionStock_InputMessage">
+    <wsdl:part name="parameters" element="tns:Item_Mantenimiento_GestionStock" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_Item_Mantenimiento_GestionStock_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Item_Mantenimiento_GestionStockResponse" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_AlmacenesFlete_Listar_InputMessage">
+    <wsdl:part name="parameters" element="tns:AlmacenesFlete_Listar" />
+  </wsdl:message>
+  <wsdl:message name="IItemWCF_AlmacenesFlete_Listar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AlmacenesFlete_ListarResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IItemWCF">
+    <wsdl:operation name="Item_ListarProducto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IItemWCF/Item_ListarProducto" message="tns:IItemWCF_Item_ListarProducto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IItemWCF/Item_ListarProductoResponse" message="tns:IItemWCF_Item_ListarProducto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Item_Buscar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IItemWCF/Item_Buscar" message="tns:IItemWCF_Item_Buscar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IItemWCF/Item_BuscarResponse" message="tns:IItemWCF_Item_Buscar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Item_ListarTipoGastoCC">
+      <wsdl:input wsaw:Action="http://tempuri.org/IItemWCF/Item_ListarTipoGastoCC" message="tns:IItemWCF_Item_ListarTipoGastoCC_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IItemWCF/Item_ListarTipoGastoCCResponse" message="tns:IItemWCF_Item_ListarTipoGastoCC_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Item_ListarStock">
+      <wsdl:input wsaw:Action="http://tempuri.org/IItemWCF/Item_ListarStock" message="tns:IItemWCF_Item_ListarStock_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IItemWCF/Item_ListarStockResponse" message="tns:IItemWCF_Item_ListarStock_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Item_ListarPrecioCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IItemWCF/Item_ListarPrecioCliente" message="tns:IItemWCF_Item_ListarPrecioCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IItemWCF/Item_ListarPrecioClienteResponse" message="tns:IItemWCF_Item_ListarPrecioCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Item_BuscarPrecioCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IItemWCF/Item_BuscarPrecioCliente" message="tns:IItemWCF_Item_BuscarPrecioCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IItemWCF/Item_BuscarPrecioClienteResponse" message="tns:IItemWCF_Item_BuscarPrecioCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Item_RegistrarPrecioCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IItemWCF/Item_RegistrarPrecioCliente" message="tns:IItemWCF_Item_RegistrarPrecioCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IItemWCF/Item_RegistrarPrecioClienteResponse" message="tns:IItemWCF_Item_RegistrarPrecioCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Item_BuscarProducto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IItemWCF/Item_BuscarProducto" message="tns:IItemWCF_Item_BuscarProducto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IItemWCF/Item_BuscarProductoResponse" message="tns:IItemWCF_Item_BuscarProducto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Item_EliminarProductoCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IItemWCF/Item_EliminarProductoCliente" message="tns:IItemWCF_Item_EliminarProductoCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IItemWCF/Item_EliminarProductoClienteResponse" message="tns:IItemWCF_Item_EliminarProductoCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Item_Listar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IItemWCF/Item_Listar" message="tns:IItemWCF_Item_Listar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IItemWCF/Item_ListarResponse" message="tns:IItemWCF_Item_Listar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Item_Listar_ProductosCompras">
+      <wsdl:input wsaw:Action="http://tempuri.org/IItemWCF/Item_Listar_ProductosCompras" message="tns:IItemWCF_Item_Listar_ProductosCompras_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IItemWCF/Item_Listar_ProductosComprasResponse" message="tns:IItemWCF_Item_Listar_ProductosCompras_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Item_CategoriasGxOpciones">
+      <wsdl:input wsaw:Action="http://tempuri.org/IItemWCF/Item_CategoriasGxOpciones" message="tns:IItemWCF_Item_CategoriasGxOpciones_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IItemWCF/Item_CategoriasGxOpcionesResponse" message="tns:IItemWCF_Item_CategoriasGxOpciones_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Item_ListarProducto_Stock">
+      <wsdl:input wsaw:Action="http://tempuri.org/IItemWCF/Item_ListarProducto_Stock" message="tns:IItemWCF_Item_ListarProducto_Stock_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IItemWCF/Item_ListarProducto_StockResponse" message="tns:IItemWCF_Item_ListarProducto_Stock_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Item_ListarStock_Comercial">
+      <wsdl:input wsaw:Action="http://tempuri.org/IItemWCF/Item_ListarStock_Comercial" message="tns:IItemWCF_Item_ListarStock_Comercial_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IItemWCF/Item_ListarStock_ComercialResponse" message="tns:IItemWCF_Item_ListarStock_Comercial_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Item_Listar_GestionStock">
+      <wsdl:input wsaw:Action="http://tempuri.org/IItemWCF/Item_Listar_GestionStock" message="tns:IItemWCF_Item_Listar_GestionStock_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IItemWCF/Item_Listar_GestionStockResponse" message="tns:IItemWCF_Item_Listar_GestionStock_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Item_Mantenimiento_GestionStock">
+      <wsdl:input wsaw:Action="http://tempuri.org/IItemWCF/Item_Mantenimiento_GestionStock" message="tns:IItemWCF_Item_Mantenimiento_GestionStock_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IItemWCF/Item_Mantenimiento_GestionStockResponse" message="tns:IItemWCF_Item_Mantenimiento_GestionStock_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AlmacenesFlete_Listar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IItemWCF/AlmacenesFlete_Listar" message="tns:IItemWCF_AlmacenesFlete_Listar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IItemWCF/AlmacenesFlete_ListarResponse" message="tns:IItemWCF_AlmacenesFlete_Listar_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IItemWCF" type="tns:IItemWCF">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Item_ListarProducto">
+      <soap:operation soapAction="http://tempuri.org/IItemWCF/Item_ListarProducto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Item_Buscar">
+      <soap:operation soapAction="http://tempuri.org/IItemWCF/Item_Buscar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Item_ListarTipoGastoCC">
+      <soap:operation soapAction="http://tempuri.org/IItemWCF/Item_ListarTipoGastoCC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Item_ListarStock">
+      <soap:operation soapAction="http://tempuri.org/IItemWCF/Item_ListarStock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Item_ListarPrecioCliente">
+      <soap:operation soapAction="http://tempuri.org/IItemWCF/Item_ListarPrecioCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Item_BuscarPrecioCliente">
+      <soap:operation soapAction="http://tempuri.org/IItemWCF/Item_BuscarPrecioCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Item_RegistrarPrecioCliente">
+      <soap:operation soapAction="http://tempuri.org/IItemWCF/Item_RegistrarPrecioCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Item_BuscarProducto">
+      <soap:operation soapAction="http://tempuri.org/IItemWCF/Item_BuscarProducto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Item_EliminarProductoCliente">
+      <soap:operation soapAction="http://tempuri.org/IItemWCF/Item_EliminarProductoCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Item_Listar">
+      <soap:operation soapAction="http://tempuri.org/IItemWCF/Item_Listar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Item_Listar_ProductosCompras">
+      <soap:operation soapAction="http://tempuri.org/IItemWCF/Item_Listar_ProductosCompras" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Item_CategoriasGxOpciones">
+      <soap:operation soapAction="http://tempuri.org/IItemWCF/Item_CategoriasGxOpciones" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Item_ListarProducto_Stock">
+      <soap:operation soapAction="http://tempuri.org/IItemWCF/Item_ListarProducto_Stock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Item_ListarStock_Comercial">
+      <soap:operation soapAction="http://tempuri.org/IItemWCF/Item_ListarStock_Comercial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Item_Listar_GestionStock">
+      <soap:operation soapAction="http://tempuri.org/IItemWCF/Item_Listar_GestionStock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Item_Mantenimiento_GestionStock">
+      <soap:operation soapAction="http://tempuri.org/IItemWCF/Item_Mantenimiento_GestionStock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AlmacenesFlete_Listar">
+      <soap:operation soapAction="http://tempuri.org/IItemWCF/AlmacenesFlete_Listar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ItemWCF">
+    <wsdl:port name="BasicHttpBinding_IItemWCF" binding="tns:BasicHttpBinding_IItemWCF">
+      <soap:address location="http://intranet.gruposilvestre.com.pe/WCFServices/ItemWCF.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E6FEC5D-972B-4002-9AC7-320AAE6DB7E0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>WMS.GuiasXConfirmar</RootNamespace>
+    <AssemblyName>WMS.GuiasXConfirmar</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connected Services\AgendaWCF\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\GuiaWCF\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\ImpuestosWCF\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\ItemECF\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\OrdenVentaWCF\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\WmsWCF\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\AgendaWCF\AgendaWCF1.wsdl" />
+    <None Include="Connected Services\AgendaWCF\AgendaWCF4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\AgendaWCF\AgendaWCF41.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\AgendaWCF\AgendaWCF42.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\AgendaWCF\AgendaWCF43.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.Agenda_BucarProveedorResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.Agenda_BuscarClienteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.Agenda_BuscarCliente_ContadoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.Agenda_BuscarEmpresaResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.Agenda_LimiteCreditoBE.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.Agenda_RegistrarCorreoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.Agenda_ValidarCorreoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsAgenda_BucarProveedorResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsAgenda_BuscarClienteDetalleResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsAgenda_ContactoResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsAgenda_ListarClienteResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsAgenda_ListarContactoResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsAgenda_ListarGarantiaResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsAgenda_ListarProveedorResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsAgenda_ListarTransportistaResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsAgenda_ListarVendedorResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsChofer_ListarResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsClientesCorreo_EnvioResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsClientesXVendedor_ListarResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsListarLogLineaCreditoResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsListarObservacionesAgendaResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsPlaca_DespachoResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsPlaca_ListarResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsUsuario_SectoristaResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsVendedores_ListarResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsVendedor_ListarResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsZonaSectorista_ListarResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.gsZona_ListarResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.GS_RecuperaCorreoAgendaResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.RPT00015Result.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.VBG00167Result.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.VBG00746Result.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.VBG01134Result.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.VBG01134_validarCorreoResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.VBG02699Result.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AgendaWCF\WMS.GuiasXConfirmar.AgendaWCF.VBG03678Result.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GuiaWCF\GuiaWCF1.wsdl" />
+    <None Include="Connected Services\GuiaWCF\GuiaWCF3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\GuiaWCF\GuiaWCF31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\GuiaWCF\GuiaWCF32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\GuiaWCF\WMS.GuiasXConfirmar.GuiaWCF.gsGuiaVentas_FechasGlobalResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GuiaWCF\WMS.GuiasXConfirmar.GuiaWCF.gsGuiaVentas_FechaslistarResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GuiaWCF\WMS.GuiasXConfirmar.GuiaWCF.gsGuiaVentas_listarResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GuiaWCF\WMS.GuiasXConfirmar.GuiaWCF.gsGuiaVentas_TransitolistarResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GuiaWCF\WMS.GuiasXConfirmar.GuiaWCF.gsGuiaVenta_ListarxOPResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GuiaWCF\WMS.GuiasXConfirmar.GuiaWCF.gsGuiaVenta_ListarXPedidoResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GuiaWCF\WMS.GuiasXConfirmar.GuiaWCF.gsGuia_BuscarCabeceraResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GuiaWCF\WMS.GuiasXConfirmar.GuiaWCF.gsGuia_BuscarDetalleResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GuiaWCF\WMS.GuiasXConfirmar.GuiaWCF.GuiaVenta_BuscarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GuiaWCF\WMS.GuiasXConfirmar.GuiaWCF.GuiaVenta_LotesItemsResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GuiaWCF\WMS.GuiasXConfirmar.GuiaWCF.USP_SEL_GUIAS_PENDIENTESIMPRESIONResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GuiaWCF\WMS.GuiasXConfirmar.GuiaWCF.USP_SEL_Guia_VentaImpresaQRResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GuiaWCF\WMS.GuiasXConfirmar.GuiaWCF.USP_SEL_IMPRESORASQRResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\GuiaWCF\WMS.GuiasXConfirmar.GuiaWCF.VBG00971Result.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ImpuestosWCF\ImpuestoWCF.wsdl" />
+    <None Include="Connected Services\ImpuestosWCF\ImpuestoWCF.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ImpuestosWCF\ImpuestoWCF1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ImpuestosWCF\ImpuestoWCF2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ImpuestosWCF\WMS.GuiasXConfirmar.ImpuestosWCF.gsImpuesto_BuscarPorPedidoResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ImpuestosWCF\WMS.GuiasXConfirmar.ImpuestosWCF.gsImpuesto_ListarPorItemResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ItemECF\ItemWCF.wsdl" />
+    <None Include="Connected Services\ItemECF\ItemWCF.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ItemECF\ItemWCF1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ItemECF\ItemWCF2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ItemECF\WMS.GuiasXConfirmar.ItemECF.gsItem_BuscarResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ItemECF\WMS.GuiasXConfirmar.ItemECF.gsItem_ListarPrecioClienteResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ItemECF\WMS.GuiasXConfirmar.ItemECF.gsItem_ListarProductoResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ItemECF\WMS.GuiasXConfirmar.ItemECF.gsItem_ListarProducto_StockResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ItemECF\WMS.GuiasXConfirmar.ItemECF.gsItem_ListarResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ItemECF\WMS.GuiasXConfirmar.ItemECF.gsItem_ListarStockResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ItemECF\WMS.GuiasXConfirmar.ItemECF.gsItem_ListarStock_ComercialResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ItemECF\WMS.GuiasXConfirmar.ItemECF.gsItem_ListarTipoGastoCCResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ItemECF\WMS.GuiasXConfirmar.ItemECF.Item_BuscarPrecioClienteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ItemECF\WMS.GuiasXConfirmar.ItemECF.Item_BuscarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ItemECF\WMS.GuiasXConfirmar.ItemECF.Item_RegistrarPrecioClienteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ItemECF\WMS.GuiasXConfirmar.ItemECF.spAlmacenesFlete_ListarResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ItemECF\WMS.GuiasXConfirmar.ItemECF.sp_GestionStock_ListarResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ItemECF\WMS.GuiasXConfirmar.ItemECF.VBG00321Result.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ItemECF\WMS.GuiasXConfirmar.ItemECF.VBG01124Result.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ItemECF\WMS.GuiasXConfirmar.ItemECF.VBG01134Result.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ItemECF\WMS.GuiasXConfirmar.ItemECF.VBG04054Result.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\OrdenVentaWCF\OrdenVentaWCF.wsdl" />
+    <None Include="Connected Services\OrdenVentaWCF\OrdenVentaWCF.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\OrdenVentaWCF\OrdenVentaWCF1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\OrdenVentaWCF\OrdenVentaWCF2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\OrdenVentaWCF\OrdenVentaWCF3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\OrdenVentaWCF\WMS.GuiasXConfirmar.OrdenVentaWCF.gsOV_BuscarCabeceraResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\OrdenVentaWCF\WMS.GuiasXConfirmar.OrdenVentaWCF.gsOV_BuscarDetalleResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\OrdenVentaWCF\WMS.GuiasXConfirmar.OrdenVentaWCF.gsOV_BuscarImpuestoResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\OrdenVentaWCF\WMS.GuiasXConfirmar.OrdenVentaWCF.gsOV_ListarResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\OrdenVentaWCF\WMS.GuiasXConfirmar.OrdenVentaWCF.gsOV_Listar_SectoristaResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\OrdenVentaWCF\WMS.GuiasXConfirmar.OrdenVentaWCF.gsPedidos_FechasLetrasSelectResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\OrdenVentaWCF\WMS.GuiasXConfirmar.OrdenVentaWCF.OrdenVenta_BuscarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\OrdenVentaWCF\WMS.GuiasXConfirmar.OrdenVentaWCF.OrdenVenta_Buscar_GuiaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\OrdenVentaWCF\WMS.GuiasXConfirmar.OrdenVentaWCF.OV_TransGratuitas_AprobarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\OrdenVentaWCF\WMS.GuiasXConfirmar.OrdenVentaWCF.VBG03630Result.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\WmsWCF\WMS.GuiasXConfirmar.WmsWCF.Cargar_Pedidos_ConfirmacionResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\WmsWCF\WMS.GuiasXConfirmar.WmsWCF.Cargar_Recepcion_ConfirmacionResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\WmsWCF\WMS.GuiasXConfirmar.WmsWCF.gsWMSPendientes_EnvioResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\WmsWCF\WMS.GuiasXConfirmar.WmsWCF.gsWMSProduccion_PendientesRecibirResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\WmsWCF\WMS.GuiasXConfirmar.WmsWCF.VBG00518_WMSResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\WmsWCF\WMS.GuiasXConfirmar.WmsWCF.WMS_ObtenerOrdenCompraResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\WmsWCF\WmsWCF.wsdl" />
+    <None Include="Connected Services\WmsWCF\WmsWCF.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\WmsWCF\WmsWCF1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\WmsWCF\WmsWCF2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WMS.Entities\WMS.Entities.csproj">
+      <Project>{48242619-ef17-47b0-860b-b1f21914bcc1}</Project>
+      <Name>WMS.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WMS.Logic\WMS.Logic.csproj">
+      <Project>{11a733c1-6e7b-4e35-b018-4ae208f50bab}</Project>
+      <Name>WMS.Logic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\AgendaWCF\" />
+    <WCFMetadataStorage Include="Connected Services\GuiaWCF\" />
+    <WCFMetadataStorage Include="Connected Services\ImpuestosWCF\" />
+    <WCFMetadataStorage Include="Connected Services\ItemECF\" />
+    <WCFMetadataStorage Include="Connected Services\OrdenVentaWCF\" />
+    <WCFMetadataStorage Include="Connected Services\WmsWCF\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\WmsWCF\WmsWCF.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\WmsWCF\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\WmsWCF\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\WmsWCF\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\AgendaWCF\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\AgendaWCF\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\AgendaWCF\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\OrdenVentaWCF\OrdenVentaWCF.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\OrdenVentaWCF\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\OrdenVentaWCF\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\OrdenVentaWCF\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ImpuestosWCF\ImpuestoWCF.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ImpuestosWCF\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ImpuestosWCF\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ImpuestosWCF\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ItemECF\ItemWCF.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ItemECF\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ItemECF\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ItemECF\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\GuiaWCF\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\GuiaWCF\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\GuiaWCF\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\GuiaWCF\GuiaWCF1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\AgendaWCF\AgendaWCF1.disco" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

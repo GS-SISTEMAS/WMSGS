@@ -1,0 +1,28 @@
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\CleanFile\obj\Debug\CleanFile.csprojResolveAssemblyReference.cache
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\CleanFile\obj\Debug\CleanFile.Form1.resources
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\CleanFile\obj\Debug\CleanFile.Properties.Resources.resources
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\CleanFile\obj\Debug\CleanFile.csproj.GenerateResource.Cache
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\CleanFile\bin\Debug\CleanFile.exe.config
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\CleanFile\bin\Debug\CleanFile.exe
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\CleanFile\bin\Debug\CleanFile.pdb
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\CleanFile\obj\Debug\CleanFile.exe
+C:\Users\allan.grey\Google Drive\Proyectos\Code\WMS\CleanFile\obj\Debug\CleanFile.pdb
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\CleanFile\bin\Debug\CleanFile.exe.config
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\CleanFile\bin\Debug\CleanFile.exe
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\CleanFile\bin\Debug\CleanFile.pdb
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\CleanFile\obj\Debug\CleanFile.csprojResolveAssemblyReference.cache
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\CleanFile\obj\Debug\CleanFile.Form1.resources
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\CleanFile\obj\Debug\CleanFile.Properties.Resources.resources
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\CleanFile\obj\Debug\CleanFile.csproj.GenerateResource.Cache
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\CleanFile\obj\Debug\CleanFile.exe
+C:\Users\cesar.coronel\Desktop\WMS-Source\WMS\CleanFile\obj\Debug\CleanFile.pdb
+C:\Users\andy.vera\Source\Repos\wms\CleanFile\bin\Debug\CleanFile.exe.config
+C:\Users\andy.vera\Source\Repos\wms\CleanFile\bin\Debug\CleanFile.exe
+C:\Users\andy.vera\Source\Repos\wms\CleanFile\bin\Debug\CleanFile.pdb
+C:\Users\andy.vera\Source\Repos\wms\CleanFile\obj\Debug\CleanFile.csprojAssemblyReference.cache
+C:\Users\andy.vera\Source\Repos\wms\CleanFile\obj\Debug\CleanFile.Form1.resources
+C:\Users\andy.vera\Source\Repos\wms\CleanFile\obj\Debug\CleanFile.Properties.Resources.resources
+C:\Users\andy.vera\Source\Repos\wms\CleanFile\obj\Debug\CleanFile.csproj.GenerateResource.cache
+C:\Users\andy.vera\Source\Repos\wms\CleanFile\obj\Debug\CleanFile.csproj.CoreCompileInputs.cache
+C:\Users\andy.vera\Source\Repos\wms\CleanFile\obj\Debug\CleanFile.exe
+C:\Users\andy.vera\Source\Repos\wms\CleanFile\obj\Debug\CleanFile.pdb

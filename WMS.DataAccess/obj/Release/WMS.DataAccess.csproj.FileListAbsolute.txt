@@ -1,0 +1,16 @@
+C:\Users\andy.vera\Source\Repos\wms\WMS.DataAccess\bin\Release\WMS.DataAccess.dll.config
+C:\Users\andy.vera\Source\Repos\wms\WMS.DataAccess\bin\Release\WMS.DataAccess.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.DataAccess\bin\Release\WMS.DataAccess.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.DataAccess\bin\Release\GS.configuration.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.DataAccess\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.DataAccess\bin\Release\Microsoft.Practices.Unity.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.DataAccess\bin\Release\Microsoft.Practices.Unity.Interception.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.DataAccess\bin\Release\WMS.Entities.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.DataAccess\bin\Release\WMS.Entities.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.DataAccess\obj\Release\WMS.DataAccess.csprojAssemblyReference.cache
+C:\Users\andy.vera\Source\Repos\wms\WMS.DataAccess\obj\Release\WMS.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\andy.vera\Source\Repos\wms\WMS.DataAccess\obj\Release\WMS.DataAccess.csproj.CopyComplete
+C:\Users\andy.vera\Source\Repos\wms\WMS.DataAccess\obj\Release\WMS.DataAccess.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.DataAccess\obj\Release\WMS.DataAccess.pdb

@@ -1,0 +1,6 @@
+C:\Users\andy.vera\Source\Repos\wms\WMS.Libreria\bin\Release\WMS.Libreria.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.Libreria\bin\Release\WMS.Libreria.pdb
+C:\Users\andy.vera\Source\Repos\wms\WMS.Libreria\obj\Release\WMS.Libreria.csprojAssemblyReference.cache
+C:\Users\andy.vera\Source\Repos\wms\WMS.Libreria\obj\Release\WMS.Libreria.csproj.CoreCompileInputs.cache
+C:\Users\andy.vera\Source\Repos\wms\WMS.Libreria\obj\Release\WMS.Libreria.dll
+C:\Users\andy.vera\Source\Repos\wms\WMS.Libreria\obj\Release\WMS.Libreria.pdb
