@@ -42,7 +42,15 @@ namespace TESO.LetrasElectronicas
                     Generar_LetrasElectornicas(idEmpresa, ruc_empresa, esquemaREC);
                 }
 
+                if (x == 3)
+                {
 
+                    string esquemaREC = ConfigurationSettings.AppSettings["BD_inatec"].ToString();
+                    ruc_empresa = "20505467214";
+                    idEmpresa = 6;
+
+                    Generar_LetrasElectornicas(idEmpresa, ruc_empresa, esquemaREC);
+                }
 
 
 
